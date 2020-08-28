@@ -15,17 +15,26 @@ const Home = () => {
           <h2 style={styleModule.description}>I'm a Software Developer.</h2>
         </div>
         <div style={styleModule.linkerDiv}>
-          <a href="https://github.com/samirghouri" target="_blank ">
+          <a
+            href="https://github.com/samirghouri"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={github} style={styleModule.github} alt="" />
           </a>
           <a
             href="https://www.linkedin.com/in/samir-ahmed-ghouri-3159ab185/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={linkedin} style={styleModule.linkedin} />
+            <img src={linkedin} style={styleModule.linkedin} alt="" />
           </a>
-          <a href="https://twitter.com/SamirGhouri" target="_blank">
-            <img src={twitter} style={styleModule.twitter} />
+          <a
+            href="https://twitter.com/SamirGhouri"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={twitter} style={styleModule.twitter} alt="" />
           </a>
         </div>
       </div>

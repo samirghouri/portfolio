@@ -31,7 +31,6 @@ const github = {
 const linkedin = {
   position: "fixed",
   height: "40px",
-  border: "dotted",
   right: "52%",
 };
 const twitter = {
